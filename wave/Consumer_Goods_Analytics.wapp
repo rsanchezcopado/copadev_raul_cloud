@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/16.png</assetIcon>
+    <folder>Consumer_Goods_Analytics</folder>
+    <masterLabel>Consumer Goods Analytics</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>rsanchez-mqgk@force.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <templateOrigin>sfdc_internal__CG_Analytics</templateOrigin>
+    <templateVersion>2.0</templateVersion>
+</WaveApplication>

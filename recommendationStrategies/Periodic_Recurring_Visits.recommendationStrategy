@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecommendationStrategy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <invocableAction>
+        <childNode>Map_Retail_Store_to_Recommendations</childNode>
+        <description>Recommends Stores whose last visit is greater than 30 days</description>
+        <label>Greater than 30</label>
+        <name>Greater_than_30</name>
+        <action>VisitRecommendation</action>
+        <argument>
+            <name>targetDate</name>
+            <value>$Request.TargetDate</value>
+        </argument>
+        <isGenerator>false</isGenerator>
+        <type>apex</type>
+    </invocableAction>
+    <label>Periodic Recurring Visits</label>
+    <map>
+        <childNode>Load_Retail_Stores</childNode>
+        <label>Map Retail Store to Recommendations</label>
+        <name>Map_Retail_Store_to_Recommendations</name>
+        <mapExpression>
+            <expression>Id</expression>
+            <name>Description</name>
+            <type>Text</type>
+        </mapExpression>
+        <mapExpression>
+            <expression>&quot;Sample_flow_for_NBA_Strategy&quot;</expression>
+            <name>ActionReference</name>
+            <type>Text</type>
+        </mapExpression>
+        <mapExpression>
+            <expression>Id</expression>
+            <name>StoreId</name>
+            <type>Text</type>
+        </mapExpression>
+        <mapExpression>
+            <expression>&quot;Not visited in last 2 weeks&quot;</expression>
+            <name>Reasons</name>
+            <type>Text</type>
+        </mapExpression>
+        <mapExpression>
+            <expression>Id</expression>
+            <name>ExternalId</name>
+            <type>Text</type>
+        </mapExpression>
+    </map>
+    <recommendationLoad>
+        <label>Load Retail Stores</label>
+        <name>Load_Retail_Stores</name>
+        <condition>
+            <field>IsDeleted</field>
+            <operator>EQUALS</operator>
+            <value>
+                <type>BOOLEAN</type>
+                <value>false</value>
+            </value>
+        </condition>
+        <conditionLogic>and</conditionLogic>
+        <object>RetailStore</object>
+    </recommendationLoad>
+    <union>
+        <childNode>Greater_than_30</childNode>
+        <label>Output</label>
+        <name>Output_222ed512ef3e4be8988226a13d0882ed</name>
+    </union>
+</RecommendationStrategy>

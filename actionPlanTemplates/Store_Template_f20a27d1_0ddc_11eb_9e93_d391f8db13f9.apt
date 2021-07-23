@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionPlanTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionPlanTemplateItem>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>RecordAction</itemEntityType>
+            <name>FlowDefinition</name>
+            <valueLiteral>30009000000EHjEAAW</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <isRequired>false</isRequired>
+        <itemEntityType>RecordAction</itemEntityType>
+        <name>Promotion Display Follow Up</name>
+        <uniqueName>Promotion_Display_Follow_Up_f233cff7_0ddc_11eb_9e93_696ef4c58dd4</uniqueName>
+    </actionPlanTemplateItem>
+    <actionPlanTemplateItem>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>Name</name>
+            <valueLiteral>Inventory Check</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>AssessmentTaskDefinitionId</name>
+            <valueLiteral>0Z409000000kO5ACAU</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <isRequired>false</isRequired>
+        <itemEntityType>AssessmentTask</itemEntityType>
+        <name>Inventory Check</name>
+        <uniqueName>Inventory_Check_f232be81_0ddc_11eb_9e93_7353fe1069d3</uniqueName>
+    </actionPlanTemplateItem>
+    <actionPlanTemplateItem>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>Name</name>
+            <valueLiteral>Capture Order</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>AssessmentTaskDefinitionId</name>
+            <valueLiteral>0Z409000000kO5ECAU</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <isRequired>true</isRequired>
+        <itemEntityType>AssessmentTask</itemEntityType>
+        <name>Capture Order</name>
+        <uniqueName>Capture_Order_f231fb2d_0ddc_11eb_9e93_ff1ebd0dcd76</uniqueName>
+    </actionPlanTemplateItem>
+    <actionPlanTemplateItem>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>AssessmentTaskDefinitionId</name>
+            <valueLiteral>0Z409000000kO5BCAU</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>Name</name>
+            <valueLiteral>Planogram Check</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <isRequired>false</isRequired>
+        <itemEntityType>AssessmentTask</itemEntityType>
+        <name>Planogram Check</name>
+        <uniqueName>Planogram_Check_f2341e19_0ddc_11eb_9e93_6d861d117f58</uniqueName>
+    </actionPlanTemplateItem>
+    <actionPlanTemplateItem>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>Name</name>
+            <valueLiteral>Promotion Check</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>AssessmentTaskDefinitionId</name>
+            <valueLiteral>0Z409000000kO59CAE</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <isRequired>false</isRequired>
+        <itemEntityType>AssessmentTask</itemEntityType>
+        <name>Promotion Check</name>
+        <uniqueName>Promotion_Check_f232494f_0ddc_11eb_9e93_b3c6b4262327</uniqueName>
+    </actionPlanTemplateItem>
+    <actionPlanTemplateItem>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>Name</name>
+            <valueLiteral>Assets Check</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>AssessmentTaskDefinitionId</name>
+            <valueLiteral>0Z409000000kO5CCAU</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <isRequired>false</isRequired>
+        <itemEntityType>AssessmentTask</itemEntityType>
+        <name>Assets Check</name>
+        <uniqueName>Assets_Check_f2330ca3_0ddc_11eb_9e93_e1f452e71995</uniqueName>
+    </actionPlanTemplateItem>
+    <actionPlanTemplateItem>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>DeliveryTask</itemEntityType>
+            <name>Name</name>
+            <valueLiteral>Deliver Products</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <isRequired>false</isRequired>
+        <itemEntityType>DeliveryTask</itemEntityType>
+        <name>Deliver Products</name>
+        <uniqueName>Deliver_Products_089383e9_0f69_11eb_b726_23108c527577</uniqueName>
+    </actionPlanTemplateItem>
+    <actionPlanTemplateItem>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>Name</name>
+            <valueLiteral>In-store Survey</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>AssessmentTaskDefinitionId</name>
+            <valueLiteral>0Z409000000kO5DCAU</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <isRequired>false</isRequired>
+        <itemEntityType>AssessmentTask</itemEntityType>
+        <name>In-store Survey</name>
+        <uniqueName>In_store_Survey_f2335ac5_0ddc_11eb_9e93_4b94ed1a6216</uniqueName>
+    </actionPlanTemplateItem>
+    <isAdHocItemCreationEnabled>false</isAdHocItemCreationEnabled>
+    <name>Store Template</name>
+    <targetEntityType>Visit</targetEntityType>
+    <uniqueName>Store_Template_f20a27d1_0ddc_11eb_9e93_d391f8db13f9</uniqueName>
+</ActionPlanTemplate>

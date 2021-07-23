@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionPlanTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionPlanTemplateItem>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>Name</name>
+            <valueLiteral>Inventory Check</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <actionPlanTemplateItemValue>
+            <itemEntityType>AssessmentTask</itemEntityType>
+            <name>AssessmentTaskDefinitionId</name>
+            <valueLiteral>0Z409000000kO5ACAU</valueLiteral>
+        </actionPlanTemplateItemValue>
+        <isRequired>false</isRequired>
+        <itemEntityType>AssessmentTask</itemEntityType>
+        <name>Inventory Check</name>
+        <uniqueName>Inventory_Check_eaaf2129_6f3f_11ea_b312_4544ca4b8c61</uniqueName>
+    </actionPlanTemplateItem>
+    <description>PLEASE DO NOT USE THIS TEMPLATE</description>
+    <isAdHocItemCreationEnabled>false</isAdHocItemCreationEnabled>
+    <name>DO NOT USE - Test Template</name>
+    <targetEntityType>Visit</targetEntityType>
+    <uniqueName>Template_for_flow_tasks_e45f39b3_6f3f_11ea_b312_7bcef1343dfb</uniqueName>
+</ActionPlanTemplate>
