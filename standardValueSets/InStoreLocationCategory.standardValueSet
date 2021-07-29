@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Checkout</fullName>
+        <default>false</default>
+        <label>Checkout</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Aisle</fullName>
+        <default>false</default>
+        <label>Aisle</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payment Counter</fullName>
+        <default>false</default>
+        <label>Payment Counter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Backroom Storage</fullName>
+        <default>false</default>
+        <label>Backroom Storage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Shelf Facing</fullName>
+        <default>false</default>
+        <label>Shelf Facing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>rsp_category</fullName>
+        <default>false</default>
+        <label>rsp_category</label>
+    </standardValue>
+</StandardValueSet>
